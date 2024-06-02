@@ -12,6 +12,7 @@ We recommend to use Python 3.10 and to create a new [conda environment](https://
 conda create --name kp-nnum python=3.10
 conda activate kp-nnum
 pip install -U -r requirements.txt
+conda install nlopt  # Fials with Python 3.11 on macOS
 ```
 
 Installation of packages and running of the notebook have been tested to work on a macOS with Apple Silicon with Python 3.10.
