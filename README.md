@@ -12,12 +12,10 @@ We recommend to use Python 3.10 and to create a new [conda environment](https://
 conda create --name kp-nnum python=3.10
 conda activate kp-nnum
 pip install -U -r requirements.txt
-conda install nlopt  # Fials with Python 3.11 on macOS
+conda install nlopt  # Fails with Python 3.11 on macOS
 ```
 
 Installation of packages and running of the notebook have been tested to work on a macOS with Apple Silicon with Python 3.10.
 Further details on installation of kikuchipy and its dependencies are available in our [installation guide](https://kikuchipy.org/en/stable/user/installation.html).
 
-Unfortunately, the diffraction patterns cannot be shared at this time.
-
-If you have any issues with installation or questions related to the notebook/presentation, please reach out to Håkon Wiik Ånes (hwaanes@gmail.com).
+If you have any issues with installation or questions related to the notebook, please reach out to Håkon W. Ånes (hwaanes@gmail.com).
